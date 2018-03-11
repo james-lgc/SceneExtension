@@ -1,0 +1,10 @@
+{
+    "name": "DSA.Extensions.Scenes.Editor",
+    "references": [
+        "DSA.Extensions.Base",
+        "DSA.Extensions.Base.Editor",
+        "DSA.Extensions.Scenes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

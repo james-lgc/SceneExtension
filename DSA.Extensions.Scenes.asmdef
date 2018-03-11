@@ -1,0 +1,8 @@
+{
+    "name": "DSA.Extensions.Scenes",
+    "references": [
+        "DSA.Extensions.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
