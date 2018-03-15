@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class SceneChangeTrait : TraitBase, ISendable<string>
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Scene; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Scene; } }
 
 	public Action<string> SendAction { get; set; }
 

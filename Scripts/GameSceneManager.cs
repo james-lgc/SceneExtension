@@ -10,7 +10,7 @@ namespace DSA.Extensions.Scenes
 	[System.Serializable]
 	public class GameSceneManager : CanvasedManagerBase<BlackOutCanvas>
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Scene; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Scene; } }
 
 		[SerializeField] private string[] sceneNames;
 		public string[] SceneNames { get { return sceneNames; } }

@@ -10,7 +10,7 @@ namespace DSA.Extensions.Scenes
 	[SerializeField]
 	public class SceneInformation : TraitedMonoBehaviour
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Scene; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Scene; } }
 
 		private SceneParameter[] sceneParameters;
 		public SceneParameter[] SceneParameters

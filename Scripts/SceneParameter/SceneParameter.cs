@@ -8,7 +8,7 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public class SceneParameter : TraitedMonoBehaviour, ISendable<SceneParameter>
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Scene; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.Scene; } }
 
 	[SerializeField] private string parameterName;
 	public string ParameterName { get { return parameterName; } }
